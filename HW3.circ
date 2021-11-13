@@ -73,7 +73,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <tool lib="0" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
-      <a name="width" val="3"/>
       <a name="labelloc" val="east"/>
     </tool>
     <tool lib="1" name="NOT Gate"/>
@@ -168,7 +167,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="debug r2"/>
     </comp>
     <comp lib="0" loc="(110,170)" name="Constant"/>
-    <comp loc="(870,410)" name="register"/>
     <comp lib="0" loc="(590,450)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="5"/>
@@ -205,9 +203,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(130,420)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(119,582)" name="Text">
-      <a name="text" val="呢個input遲d連halt instrusion"/>
     </comp>
     <comp lib="6" loc="(144,706)" name="Text">
       <a name="text" val="debug area"/>
@@ -252,6 +247,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="tristate" val="false"/>
     </comp>
     <comp lib="0" loc="(330,370)" name="Constant"/>
+    <comp loc="(890,440)" name="register"/>
     <comp lib="0" loc="(310,880)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -761,6 +757,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <text font-family="SansSerif" font-size="16" text-anchor="middle" x="115" y="155">control unit</text>
       <circ-port height="8" pin="110,20" width="8" x="86" y="56"/>
       <circ-port height="10" pin="650,20" width="10" x="145" y="55"/>
+      <circ-port height="10" pin="890,70" width="10" x="145" y="65"/>
       <circ-anchor facing="east" height="6" width="6" x="177" y="67"/>
     </appear>
     <wire from="(520,80)" to="(570,80)"/>
@@ -1098,6 +1095,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="6" loc="(1062,139)" name="Text">
       <a name="text" val="6.and"/>
+    </comp>
+    <comp lib="0" loc="(890,70)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="write "/>
+      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(440,40)" name="Tunnel">
       <a name="facing" val="south"/>
