@@ -1,0 +1,36 @@
+
+li $r1, 6 
+
+li $r2, 5 
+
+and $r3, $r1, $r2 
+
+li $r8, 0 
+
+store $r3, $r8 
+
+or $r4, $r1, $r2 
+
+li $r8, 1 
+
+store $r4, $r8 
+
+mult $r5, $r3, $r4 
+
+li $r8, 2 
+
+store $r5, $r8 
+
+move $r6, $r5 
+
+li $r8, 1 
+
+load $r7, $r8 
+
+add $r8, $r6, $r7 
+
+halt 
+
+
+0006 0105 2A04 0700 48E8 3304 0701 48EC 3C4C 0702 48F0 5580 0701 46E0 0FB8 2000 
+
