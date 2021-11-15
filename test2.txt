@@ -1,0 +1,8 @@
+010a 0202 5340 4740 3A28 4828 2000
+li $r2, 10 
+li $r3, 2
+move $r4 $r3
+load $r8, $r3
+mult $r3 $r2 $r3
+store $r2 $r3
+halt
