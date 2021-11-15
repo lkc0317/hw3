@@ -2,7 +2,7 @@ import java.util.*;
 
 
 
-public class q2{
+public class q3{
 
     public static void main(String []args){
        int x1=0;
